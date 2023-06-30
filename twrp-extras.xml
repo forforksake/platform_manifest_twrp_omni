@@ -4,9 +4,10 @@
         fetch="https://github.com/ForForkSake"/>
 
 <!-- TWRP with Amonet -->
-    <remove-project name="platform/bootable/recovery"/>
+    <remove-project name="android_bootable_recovery"/>
     <project path="bootable/recovery" name="android_bootable_recovery" remote="ForForkSake" revision="amonet"/>
-    
+
+
 <!-- Use TeamWin fork for repacker support -->
  <remote name="TeamWin"
             fetch="https://github.com/TeamWin"
